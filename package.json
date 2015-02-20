@@ -29,9 +29,6 @@
     "scripts": {
         "test": "grunt"
     },
-    "bin": {
-        "node-typewriter": "cli.js"
-    },
     "dependencies": {
         "q": "^1.1.2"
     }

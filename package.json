@@ -1,0 +1,38 @@
+{
+    "name": "node-typewriter",
+    "version": "0.0.1",
+    "description": "A library for simulating a typewriter style-text on node CLI",
+    "homepage": "https://github.com/pcfreak30/node-typewriter",
+    "author": {
+        "name": "Derrick Hammer",
+        "email": "derrick@derrickhammer.com",
+        "url": "http://www.derrickhammer.com"
+    },
+    "repository": "pcfreak30/node-typewriter",
+    "license": "GPL v2",
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "node-typewriter",
+        "typewriter"
+    ],
+    "devDependencies": {
+        "grunt-cli": "^0.1.13",
+        "grunt-contrib-jshint": "^0.10.0",
+        "grunt-contrib-nodeunit": "^0.4.1",
+        "grunt-contrib-watch": "^0.6.1",
+        "load-grunt-tasks": "^1.0.0",
+        "time-grunt": "^1.0.0",
+        "jshint-stylish": "^1.0.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "bin": {
+        "node-typewriter": "cli.js"
+    },
+    "dependencies": {
+        "q": "^1.1.2"
+    }
+}

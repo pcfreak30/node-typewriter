@@ -1,6 +1,6 @@
 {
     "name": "node-typewriter",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A library for simulating a typewriter style-text on node CLI",
     "homepage": "https://github.com/pcfreak30/node-typewriter",
     "author": {
